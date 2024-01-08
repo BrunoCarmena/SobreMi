@@ -57,7 +57,8 @@
         <div class="sobre-txt">
             <h2>Sobre <span>Mi</span></h2>
             <h4>Desarrollador Web</h4>
-            <p>Además de mis habilidades técnicas, considero que la comunicación y la colaboración son fundamentales en
+            <p id="parrafo">Además de mis habilidades técnicas, considero que la comunicación y la colaboración
+                son fundamentales en
                 mi trabajo. Me esfuerzo por entender las necesidades de mis clientes y trabajar estrechamente con ellos
                 para garantizar que sus ideas se conviertan en realidad. Creo en la importancia de establecer relaciones
                 sólidas y de confianza con mis clientes, y me enorgullece ver cómo mis soluciones web superan sus
@@ -66,12 +67,15 @@
                 No me limito a mi trabajo profesional, ya que también dedico tiempo fuera del horario laboral para
                 mantenerme actualizado sobre las últimas tendencias y avances en el desarrollo web. Me encanta explorar
                 nuevas herramientas y técnicas para expandir mis habilidades y seguir evolucionando como desarrollador.
+            </p>
 
-                En resumen, soy un desarrollador web apasionado, comprometido y orientado a resultados. Con mi enfoque
+            <p id="parrafoOculto" class="oculto">En resumen, soy un desarrollador web apasionado, comprometido y
+                orientado a
+                resultados. Con mi enfoque
                 meticuloso y mi atención a los detalles, siempre busco superar los desafíos y entregar proyectos
                 exitosos. Estoy emocionado de seguir creciendo en mi carrera y contribuir al mundo digital con mi
                 creatividad y habilidades técnicas.</p>
-            <a href="#" class="btn">Mas Info</a>
+            <button class="btn" onclick="mostrarMasInfo()">Mas Info</button>
         </div>
     </section>
 
@@ -91,12 +95,14 @@
                     <i class="bx bx-mobile-alt"></i>
                 </div>
                 <h3>Diseño Web</h3>
-                <p>
-                    "Mi servicio de diseño web ofrece sitios cautivadores y funcionales, utilizando habilidades en HTML,
+                <p id="textoResumido">
+                    Mi servicio de diseño web ofrece sitios cautivadores y funcionales, utilizando habilidades en HTML,
                     CSS y JavaScript. Con un enfoque colaborativo, traduzco tus objetivos en experiencias digitales
-                    impactantes. Siempre actualizado con las últimas tendencias y tecnologías, proporcionando soluciones
-                    innovadoras para impulsar tu éxito en línea."</p>
-                <a href="#" class="read">Leer Mas</a>
+                    impactantes.</p>
+                <p id="textoCompleto">Siempre actualizado con las últimas tendencias y tecnologías, proporcionando
+                    soluciones
+                    innovadoras para impulsar tu éxito en línea.</p>
+                <button class="read" onclick="mostrarTextoCompleto()">Leer Mas</button>
             </div>
 
             <div class="box">
@@ -104,10 +110,12 @@
                     <i class="bx bx-code-alt"></i>
                 </div>
                 <h3>Desarrollo Web</h3>
-                <p>"Servicio de desarrollo web a medida para mejorar tu presencia en línea. Creación de sitios y
-                    aplicaciones funcionales y atractivas con las últimas tecnologías. Garantizo una experiencia del
-                    usuario excepcional y estándares de calidad y seguridad."</p>
-                <a href="#" class="read">Leer Mas</a>
+                <p id="txtResumido">Servicio de desarrollo web a medida para mejorar tu presencia en línea. Creación de
+                    sitios y
+                    aplicaciones funcionales y atractivas con las últimas tecnologías.</p>
+                <p id="txtCompleto"> Garantizo una experiencia del
+                    usuario excepcional y estándares de calidad y seguridad.</p>
+                <button class="read" onclick="verTexto()">Leer Mas</button>
             </div>
 
             <div class="box">
@@ -115,10 +123,10 @@
                     <i class="bx bx-edit-alt"></i>
                 </div>
                 <h3>Diseño Creativo</h3>
-                <p>"Servicio de diseño creativo para dar vida a tu marca o proyecto. Soluciones visuales originales que
-                    transmiten tu mensaje de manera memorable. Trabajo cercano para reflejar la esencia de tu visión.
-                    Destaca y marca la diferencia con diseños auténticos y cautivadores."</p>
-                <a href="#" class="read">Leer Mas</a>
+                <p id="txtResumen">Servicio de diseño creativo para dar vida a tu marca o proyecto. Soluciones visuales originales que
+                    transmiten tu mensaje de manera memorable.</p> <p id="txtEntero">Trabajo cercano para reflejar la esencia de tu visión.
+                    Destaca y marca la diferencia con diseños auténticos y cautivadores.</p>
+                <button class="read" id="mostrarMas">Leer Mas</button>
             </div>
         </div>
     </section>
