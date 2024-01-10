@@ -19,23 +19,24 @@ window.onscroll = () => {
 function toggleDisplay(elementId, buttonText) {
     var element = document.getElementById(elementId);
     element.style.display = (element.style.display === 'none' || element.style.display === '') ? 'block' : 'none';
-    document.querySelector(buttonText).textContent = (element.style.display === 'none') ? 'Leer Más' : 'Leer Menos';
+    document.getElementById(buttonText).textContent = (element.style.display === 'none') ? 'Leer Más' : 'Leer Menos';
 }
 
 function mostrarMasInfo() {
-    toggleDisplay('parrafoOculto', '.btn');
+    toggleDisplay('parrafoOculto', 'mostrarMasInfoBtn');
 }
 
 function mostrarTextoCompleto() {
-    toggleDisplay('textoCompleto', '.read');
+    toggleDisplay('textoCompleto', 'mostrarTextoCompletoBtn');
 }
 
 function verTexto() {
-    toggleDisplay('txtCompleto', '.read');
+    toggleDisplay('txtCompleto', 'verTextoBtn');
 }
 
 function mostrarMas() {
-    toggleDisplay('txtEntero', '.read');
+    toggleDisplay('txtEntero', 'mostrarMasBtn');
 }
+
 
 

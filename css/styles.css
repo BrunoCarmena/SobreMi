@@ -223,8 +223,22 @@ header.sticky {
     margin-top: 10px;
 }
 
+#txtResumido{
+    margin-bottom: 10px;
+}
+
 #txtEntero{
     display: none;
+    margin-top: 10px;
+}
+
+#txtResumido{
+    margin-bottom: 10px;
+}
+
+#txtCompleto{
+    display: none;
+    margin-top: 10px;
 }
 
 
